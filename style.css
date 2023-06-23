@@ -1,0 +1,71 @@
+@charset 'utf-8';
+
+body {
+  font-family: "Sawarabi Gothic", sans-serif;
+  letter-spacing: 2px;
+  color: rgba(132, 125, 125, 0.9);
+}
+button {
+  border-radius: 30%;
+  width: 60px;
+  height: 60px;
+  padding: 6px;
+  color: rgb(213, 126, 20);
+  border: orange 2px dotted;
+  margin-right: 18px;
+  font-weight: 700;
+}
+
+button:hover {
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+p {
+  display: inline-block;
+  font-size: 24px;
+  color: rgba(202, 134, 134, 0.8);
+  border-bottom: solid 1px rgba(202, 134, 134, 0.8);
+}
+#btn {
+  width: 80%;
+  margin-left: auto;
+  margin-top: 20px;
+}
+
+#min,
+#sec {
+  background: white;
+}
+
+#start {
+  background-color: rgb(172, 245, 165);
+  color: white;
+}
+#reset {
+  background-color: rgb(231, 163, 163);
+  color: white;
+}
+
+#timer {
+  font-size: 4rem;
+  font-weight: 300;
+  text-align: center;
+}
+#container {
+  background: #eee;
+  width: 500px;
+  padding: 32px;
+  margin: 0 auto;
+  border: 1px solid black;
+}
+
+.three {
+  color: rgb(247, 190, 55);
+}
+.thirty {
+  color: rgb(214, 57, 57);
+}
+.zero {
+  background-color: #eee;
+}
