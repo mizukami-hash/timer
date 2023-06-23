@@ -60,12 +60,9 @@ p {
   border: 1px solid black;
 }
 
-.three {
+.three-minutes {
   color: rgb(247, 190, 55);
 }
-.thirty {
+.thirty-seconds {
   color: rgb(214, 57, 57);
-}
-.zero {
-  background-color: #eee;
 }
